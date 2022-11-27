@@ -1,0 +1,30 @@
+var1: var1: 1var2: 2kwvar1: kw1kwvar2: kw2args: (3, 4, 5, 6)
+var1: 1var2: 2kwvar1: kw1kwvar2: kw2args: (3, 4, 5, 6)i: 0
+var1: 1var2: 2kwvar1: kw1kwvar2: kw2args: (3, 4, 5, 6)i: 1
+var1: 1var2: 2kwvar1: kw1kwvar2: kw2args: (3, 4, 5, 6)i: 2
+var1: 1 var2: 2 kwvar1: kw1 kwvar2: kw2 args: (3, 4, 5, 6) 
+var1: 1 var2: 2 kwvar1: kw1 kwvar2: kw2 args: (3, 4, 5, 6) i: 0 
+var1: 1 var2: 2 kwvar1: kw1 kwvar2: kw2 args: (3, 4, 5, 6) i: 1 
+var1: 1 var2: 2 kwvar1: kw1 kwvar2: kw2 args: (3, 4, 5, 6) i: 2 
+var1:1 var2:2 kwvar1:kw1 kwvar2:kw2 args:(3, 4, 5, 6) 
+var1:1 var2:2 kwvar1:kw1 kwvar2:kw2 args:(3, 4, 5, 6) i:0 
+var1:1 var2:2 kwvar1:kw1 kwvar2:kw2 args:(3, 4, 5, 6) i:1 
+var1:1 var2:2 kwvar1:kw1 kwvar2:kw2 args:(3, 4, 5, 6) i:2 
+var1:1 var2:2 kwvar1:kw1 kwvar2:kw2 args:(3, 4, 5, 6) 
+var1:1 var2:2 kwvar1:kw1 kwvar2:kw2 args:(3, 4, 5, 6) i:0 
+var1:1 var2:2 kwvar1:kw1 kwvar2:kw2 args:(3, 4, 5, 6) i:1 
+var1:1 var2:2 kwvar1:kw1 kwvar2:kw2 args:(3, 4, 5, 6) i:2 
+debug -> var1:1var2:2kwvar1:kw1kwvar2:kw2args:(3, 4, 5, 6)debugdebug -> var1:1var2:2kwvar1:kw1kwvar2:kw2args:(3, 4, 5, 6)i:0debugdebug -> var1:1var2:2kwvar1:kw1kwvar2:kw2args:(3, 4, 5, 6)i:1debugdebug -> var1:1var2:2kwvar1:kw1kwvar2:kw2args:(3, 4, 5, 6)i:2debugdebug -> ['var1:1', 'var2:2', 'kwvar1:kw1', 'kwvar2:kw2', 'args:(3, 4, 5, 6)']debug -> ['var1:1', 'var2:2', 'kwvar1:kw1', 'kwvar2:kw2', 'args:(3, 4, 5, 6)', 'i:0']debug -> ['var1:1', 'var2:2', 'kwvar1:kw1', 'kwvar2:kw2', 'args:(3, 4, 5, 6)', 'i:1']debug -> ['var1:1', 'var2:2', 'kwvar1:kw1', 'kwvar2:kw2', 'args:(3, 4, 5, 6)', 'i:2']debug -> ['var1:1', 'var2:2', 'kwvar1:kw1', 'kwvar2:kw2', 'args:(3, 4, 5, 6)']
+debug -> ['var1:1', 'var2:2', 'kwvar1:kw1', 'kwvar2:kw2', 'args:(3, 4, 5, 6)', 'i:0']
+debug -> ['var1:1', 'var2:2', 'kwvar1:kw1', 'kwvar2:kw2', 'args:(3, 4, 5, 6)', 'i:1']
+debug -> ['var1:1', 'var2:2', 'kwvar1:kw1', 'kwvar2:kw2', 'args:(3, 4, 5, 6)', 'i:2']
+
+
+debug -> ['var1:1', 'var2:2', 'kwvar1:kw1', 'kwvar2:kw2', 'args:(3, 4, 5, 6)']
+debug -> ['var1:1', 'var2:2', 'kwvar1:kw1', 'kwvar2:kw2', 'args:(3, 4, 5, 6)', 'i:0']
+debug -> ['var1:1', 'var2:2', 'kwvar1:kw1', 'kwvar2:kw2', 'args:(3, 4, 5, 6)', 'i:1']
+debug -> ['var1:1', 'var2:2', 'kwvar1:kw1', 'kwvar2:kw2', 'args:(3, 4, 5, 6)', 'i:2']
+debug -> ['var1:1', 'var2:2', 'kwvar1:kw1', 'kwvar2:kw2', 'args:(3, 4, 5, 6)']
+debug -> ['var1:1', 'var2:2', 'kwvar1:kw1', 'kwvar2:kw2', 'args:(3, 4, 5, 6)', 'i:0']
+debug -> ['var1:1', 'var2:2', 'kwvar1:kw1', 'kwvar2:kw2', 'args:(3, 4, 5, 6)', 'i:1']
+debug -> ['var1:1', 'var2:2', 'kwvar1:kw1', 'kwvar2:kw2', 'args:(3, 4, 5, 6)', 'i:2']

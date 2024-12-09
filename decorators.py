@@ -38,6 +38,7 @@ def debugmode(mode):
             else:
                 print("mode needs to be set to either 'print' or 'log'")
             # return the executed function func(), or the object that represents it
+            return lst_output
         # return wrapper function (don't execute)
         return wrapper
     return decorator

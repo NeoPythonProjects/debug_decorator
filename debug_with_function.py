@@ -22,11 +22,12 @@ def debug(content, mode='log') -> None:
         f.close()
     else:
         print("mode needs to be set to either 'print' or 'log'")
-        exit
+        exit()
     return None
 
 
 def func(var1, var2, *args, kwvar1, kwvar2):
+    # calls the decorated debug function
     debug(locals())
     for i in range(3):
         debug(locals())

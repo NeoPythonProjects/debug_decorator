@@ -1,0 +1,33 @@
+Decorators: Course Structure
+============================
+1. Personal intro
+2. slides
+    graphic of function being wrapped and being given back
+    @ is shorthand for function of a function
+3. Build our own decorator
+    1. my_func() has no parameters: decorators_basics.py
+    2. my_func() has parameters: decorators_basics_2.py
+    3. best practise: keep introspection of my_func() intact: decorators_basics_3.py
+4. Practical apps
+4.1 simple decorators:
+    4.1.1 time test: decorators_basics_timetest.py
+    4.1.2 log in: login_example.py
+4.2 advanced decorators - with parameter
+    4.2.1. SQL
+    4.2.2. debug with output option (option = switch for the debug-function)
+5. importing decorators -> if __name__ == '__main__':
+    show that code outside of that statement is executed
+    ?? print value of __name__ (of which object - .py file?)
+6. A closer look: a look behind the @
+Examples of @ is shorthand for function of a function
+    args and kwargs not passed through via def my_decorator(my_func)
+    my_func = my_decorator(my_func) -> my func is replaced
+    for my_func to have extra functionality it needs to be replaced
+    for the decorated my_func to be available by just calling my_func(), my_func() needs
+    to be replaced with the function that provides the extra functionality: the decorator
+    explain: why user and pw were needed in application function: because teh decorator REPLACES the application function
+
+bonus: introspection
+? bonus: packing & unpacking args and kwargs -> could be separate course
+
+
